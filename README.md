@@ -190,8 +190,17 @@ p grand_piece_total #=> 1192
 ## Lab
 
 In this lab you're going to work through the directors database and create a
-Hash that records the director's name and the total grosses of all of their
-movies.
+`Hash` that records the director's name as a key, and the total grosses of all of their
+movies as the value. For example:
+
+```ruby
+hash = {
+  "1st Director's Name"=>1234567890,
+  "2nd Director's Name"=>1234567890,
+  "3rd Director's Name"=>1234567890,
+  ...
+}
+```
 
 ## Conclusion
 
