@@ -184,7 +184,8 @@ while row_index < vm.length do
   row_index += 1
 end
 
-p grand_piece_total #=> 1192 ```
+p grand_piece_total #=> 1192
+```
 
 ## Lab
 
