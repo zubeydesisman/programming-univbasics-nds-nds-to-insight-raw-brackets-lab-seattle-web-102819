@@ -28,5 +28,5 @@ def directors_totals(nds)
 # end
 for name_movies in nds do
   key = name_movies[:name]
-  movie_data = nds
+  movie_data = name_movies[:movies][]
 end
