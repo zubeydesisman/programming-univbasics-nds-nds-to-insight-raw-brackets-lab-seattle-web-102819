@@ -26,3 +26,4 @@ def directors_totals(nds)
 #   end
 #   return result
 # end
+for name_movies in nds do
