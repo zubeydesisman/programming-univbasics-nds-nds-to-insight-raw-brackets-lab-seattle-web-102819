@@ -26,15 +26,15 @@ def directors_totals(nds)
 #   end
 #   return result
 # end
-for name_movies in nds do
-  value = 0
-  key = name_movies[:name]
-  movie_array = name_movies[:movies]
-  for movie in movie_array do
-    value += movie[:worldwide_gross]
+  for name_movies in nds do
+   value = 0
+    key = name_movies[:name]
+    movie_array = name_movies[:movies]
+    for movie in movie_array do
+     value += movie[:worldwide_gross]
+    end
+    result[key] = value
   end
-  result[key] = value
-end
-return result
+  return result
 end
   
