@@ -33,4 +33,8 @@ for name_movies in nds do
   for movie in movie_array do
     value += movie[:worldwide_gross]
   end
+  result[key] = value
 end
+return result
+end
+  
